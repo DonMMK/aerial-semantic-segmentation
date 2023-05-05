@@ -163,3 +163,4 @@ cython_debug/
 # Additional ignores
 dataset_here/
 .npy
+*.npy
