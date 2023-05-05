@@ -19,3 +19,10 @@ aerial-semantic-segmentation
 ├── data_preprocessing.ipynb
 └── LICENSE
 ```
+
+- Run the `data_preprocessing.ipynb` notebook to generate the training and testing data. The data will be saved in numpy files.
+- Run the `DCNN.ipynb` notebook to train the DCNN model
+- Run the `random_forest.ipynb` notebook to train the Random Forest model
+- Run the `SVM.ipynb` notebook to train the SVM model
+
+## Results
