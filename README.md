@@ -16,3 +16,6 @@ aerial-semantic-segmentation
 ├── DCNN.ipynb
 ├── random_forest.ipynb
 ├── SVM.ipynb
+├── data_preprocessing.ipynb
+└── LICENSE
+```
