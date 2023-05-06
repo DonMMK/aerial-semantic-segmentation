@@ -9,7 +9,9 @@ Segmentation/Classification on aerial data using various methods
 ```
 aerial-semantic-segmentation
 ├── dataset_here
-│   ├── dataset 
+│   ├── dataset/semantic_drone_dataset 
+│   │   ├── label_images_semantic
+│   │   └── original_images
 │   ├── RGB_color_image_masks
 │   └── class_dict_seg.csv
 ├── README.md
