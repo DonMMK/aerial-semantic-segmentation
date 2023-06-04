@@ -1,9 +1,15 @@
 
-
+I want to use a DCNN model to perform semantic segmentation on images using this dataset:
 
 There are 400 resized RGB images, 400 resized black and white images, and 400 resized color masks.
 The images are stored in numpy.ndarray format.
 The shape of the images is (96, 128, 3) for both the RGB and black and white images, and (96, 128, 3) for the color mask.
+The file "class_dict_seg.csv" contains a mapping between names of various classes (e.g., "unlabeled", "paved-area", "dirt", etc.) and their corresponding RGB color codes (e.g., (0,0,0), (128,64,128), (130,76,0), etc.).
+There are 24 classes in total, including diverse items like various natural elements (grass, water, tree), man-made structures (roof, wall, fence), entities (person, dog, car), and other specific or unusual classes (ar-marker, obstacle, conflicting).
+
+
+Q: do both the RGB images and the RGB masks both need to be vectorised before input into the model?
+
 
 1. (Done) Load the RGB images, 
 2. Load the class dictionary from the csv
