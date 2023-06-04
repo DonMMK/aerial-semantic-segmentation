@@ -1,0 +1,11 @@
+
+
+
+There are 400 resized RGB images, 400 resized black and white images, and 400 resized color masks.
+The images are stored in numpy.ndarray format.
+The shape of the images is (96, 128, 3) for both the RGB and black and white images, and (96, 128, 3) for the color mask.
+
+1. (Done) Load the RGB images, 
+2. Load the class dictionary from the csv
+3. Convert the masks from the RGB color-space to a single channel where each pixel corresponds to the class it belongs to.
+4. 
