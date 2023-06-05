@@ -16,7 +16,7 @@ aerial-semantic-segmentation
 │   └── class_dict_seg.csv
 ├── README.md
 ├── DCNN.ipynb
-├── random_forest.ipynb
+├── U_net.ipynb
 ├── SVM.ipynb
 ├── data_preprocessing.ipynb
 └── LICENSE
